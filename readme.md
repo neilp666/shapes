@@ -1,0 +1,1 @@
+Example HTML/CSS page using clip-path & SVG

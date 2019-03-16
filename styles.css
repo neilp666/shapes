@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    border: 20px solid #ffffff;
+    height: 100vh;
+    background: #cae2df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .splash {
+    width: 600px;
+    height: 600px;
+    background-image: url(images/splash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    clip-path: url(#splash);
+  }
